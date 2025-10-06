@@ -1,6 +1,5 @@
-# Aditya-Aggarwal-stack
 Stack Data Structure Problems & Solutions
-Welcome to my repository of classic and advanced stack-based problems! This collection, curated and solved by Aditya Aggarwal, serves as a practical guide and personal log of my journey through algorithmic problem-solving focused on the Stack data structure.
+Welcome to my repository of classic and advanced stack-based problems! This collection, curated and solved by Hritik, serves as a practical guide and personal log of my journey through algorithmic problem-solving focused on the Stack data structure.
 
 📖 Overview
 This repository contains clean, efficient, and well-commented solutions to a variety of coding challenges involving stacks. The primary goal is to demonstrate different applications of stacks, from simple expression evaluation to more complex problems involving histograms and monotomic stacks. Each solution is implemented with a focus on clarity and optimal performance.
@@ -18,59 +17,83 @@ Topics Covered
 
 1.
 
-Valid Parentheses
+Maximum Area Histogram (MAH)
 
-valid_parentheses.cpp
+Mah.cpp
 
-Basic Stack, String Parsing
+Monotonic Stack, Histograms
 
 2.
 
-Min Stack (O(1) retrieval of minimum element)
+Maximum Area Rectangle in Binary Matrix
 
-min_stack.cpp
+Mar. Binary Matrix.cpp
 
-Auxiliary Stack, Data Design
+Monotonic Stack, Dynamic Programming
 
 3.
 
-Evaluate Reverse Polish Notation (Postfix)
+Min Element in Stack (O(1) Space)
 
-evaluate_rpn.cpp
+Min_EL_Stk_O(1).cpp
 
-Postfix Evaluation, Arithmetic
+Stack, Space Optimization
 
 4.
 
-Daily Temperatures
+Min Element in Stack (Extra Space)
 
-daily_temperatures.cpp
+Min_Ele_Stk_Extr_Spce.cpp
 
-Monotonic Stack, Next Greater
+Auxiliary Stack, Data Design
 
 5.
 
-Largest Rectangle in Histogram
+Next Greater Element to the Left
 
-largest_rectangle_histogram.cpp
+Ngl.cpp
 
-Monotonic Stack, Optimization
+Monotonic Stack, Array Traversal
 
 6.
 
-Trapping Rain Water
+Next Greater Element to the Right
 
-trapping_rain_water.cpp
+Ngr.cpp
 
-Two Pointers, Stack Application
+Monotonic Stack, Next Greater
 
 7.
 
-...add more problems as you solve them...
+Next Smaller Element to the Left
 
-...
+Nsl.cpp
 
-...
+Monotonic Stack, Array Traversal
+
+8.
+
+Stock Span Problem
+
+ock_span.cpp
+
+Monotonic Stack, Financial Algorithms
+
+9.
+
+Trapping Rain Water (O(1) Space)
+
+Rain_water_O(1).cpp
+
+Two Pointers, Space Optimization
+
+10.
+
+Trapping Rain Water (Tapping)
+
+rain_water_tapping.cpp
+
+Two Pointers, Stack Application
 
 🚀 How to Use
 The solutions are self-contained within their respective files. To compile and run a solution:
@@ -86,12 +109,14 @@ g++ -std=c++17 -o output_file problem_file_name.cpp
 
 For example:
 
-g++ -std=c++17 -o valid_parentheses valid_parentheses.cpp
+g++ -std=c++17 -o Mah Mah.cpp
 
 Run the executable:
 
-./output_file
+./Mah
 
+👨‍💻 About the Author
+My name is Hritik, and I am a passionate software developer with a keen interest in data structures, algorithms, and competitive programming. This repository is a reflection of my dedication to mastering fundamental computer science concepts.
 
 🤝 Contributing
 While this is primarily a personal project, I am open to suggestions, improvements, or discussions on alternative solutions. If you find a bug or have a more optimal approach, feel free to open an issue or submit a pull request.
